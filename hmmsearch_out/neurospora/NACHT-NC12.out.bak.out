@@ -1,0 +1,1733 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  pfam/NACHT.hmm
+# target sequence database:        proteome/GCF_000182925.2_NC12_protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+uncharacterized nacht-containing proteins:
+NCU08537
+NCU02194
+NCU09760
+NCU08565
+NACHT-containing protein link
+NCU04881
+NCU08705
+NCU08317 (not found by Dyrka)
+NCU00874
+NCU02897
+ATP-binding cassette sub-family F member 
+NCU01042 (not found by Dyrka)
+
+
+Query:       NACHT  [M=166]
+Accession:   PF05729.13
+Description: NACHT domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.4e-15   56.9   4.0      0.035   13.3   0.0    6.3  5  XP_957359.3     midasin [Neurospora crassa OR74A]
+    7.8e-13   48.0   0.4    2.3e-12   46.4   0.4    1.8  1  XP_011393957.1  hypothetical protein NCU08537 [Neurospora cra
+    7.8e-13   48.0   0.4    2.3e-12   46.4   0.4    1.8  1  XP_011393958.1  uncharacterized protein NCU08537 [Neurospora 
+    1.5e-10   40.6   0.0    3.6e-10   39.3   0.0    1.6  1  XP_959588.2     hypothetical protein NCU02194 [Neurospora cra
+      5e-10   38.8   0.0    1.7e-09   37.1   0.1    1.9  1  XP_011393650.1  uncharacterized protein NCU09760 [Neurospora 
+    5.2e-10   38.8   0.0    1.7e-09   37.1   0.1    1.8  1  XP_011393649.1  hypothetical protein NCU09760 [Neurospora cra
+    1.3e-09   37.5   0.0    3.6e-09   36.1   0.0    1.9  1  XP_962827.3     hypothetical protein NCU08565 [Neurospora cra
+    3.8e-09   36.0   0.7    2.5e-05   23.5   0.0    4.1  4  XP_963877.1     peroxisome biosynthesis protein [Neurospora c
+    5.6e-09   35.4   0.1    1.2e-08   34.4   0.1    1.5  1  XP_011393432.1  NACHT domain-containing protein, variant [Neu
+    5.8e-09   35.4   0.1      9e-08   31.5   0.0    2.7  2  XP_957922.2     hypothetical protein NCU04881 [Neurospora cra
+    6.3e-09   35.2   0.1    1.3e-08   34.2   0.1    1.5  1  XP_011393433.1  NACHT domain-containing protein [Neurospora c
+    5.1e-08   32.3   0.0    2.2e-07   30.2   0.0    2.1  1  XP_011393626.1  hypothetical protein NCU08705 [Neurospora cra
+    4.6e-07   29.2   0.0    9.9e-07   28.1   0.0    1.6  1  XP_962530.3     hypothetical protein NCU08317 [Neurospora cra
+    9.4e-07   28.2   0.0      3e-06   26.5   0.0    1.9  1  XP_961929.3     pfs domain-containing protein [Neurospora cra
+    4.4e-06   26.0   0.2      0.069   12.3   0.0    2.9  2  XP_962130.3     ABC bile acid transporter [Neurospora crassa 
+      7e-06   25.3   0.0    1.6e-05   24.2   0.0    1.5  1  XP_964271.2     cell division control protein Cdc6 [Neurospor
+    8.3e-06   25.1   0.0    1.7e-05   24.1   0.0    1.5  1  XP_011392839.1  uncharacterized protein NCU00874 [Neurospora 
+    9.1e-06   25.0   0.0    1.9e-05   23.9   0.0    1.5  1  XP_011392840.1  hypothetical protein NCU00874 [Neurospora cra
+    9.7e-06   24.9   1.2    2.8e-05   23.4   0.2    2.2  2  XP_965579.2     hypothetical protein NCU02897 [Neurospora cra
+    2.6e-05   23.5   0.1       0.12   11.6   0.0    2.7  2  XP_958689.1     ATP-binding cassette sub-family F member 2 [N
+    8.8e-05   21.8   0.0    0.00014   21.1   0.0    1.3  1  XP_961654.3     hypothetical protein NCU01042 [Neurospora cra
+    8.8e-05   21.8   0.1       0.11   11.7   0.0    2.9  2  XP_011393721.1  cell division control protein Cdc48 [Neurospo
+    8.8e-05   21.8   0.1       0.11   11.7   0.0    2.9  2  XP_011393722.1  cell division control protein Cdc48, variant 
+    0.00018   20.7   0.0       0.23   10.6   0.0    2.7  2  XP_964055.1     heat shock protein 78 [Neurospora crassa OR74
+    0.00023   20.4   2.1      0.069   12.4   0.2    3.3  2  XP_956487.1     AAA family ATPase/60S ribosome export protein
+    0.00026   20.2   1.5       0.48    9.6   0.0    3.4  3  XP_956834.1     vesicular-fusion protein SEC18 [Neurospora cr
+    0.00027   20.2   0.0      0.099   11.8   0.0    2.6  2  XP_962438.1     elongation factor 3 [Neurospora crassa OR74A]
+     0.0006   19.1   0.0     0.0013   17.9   0.0    1.6  1  XP_956329.1     ribosome biogenesis protein [Neurospora crass
+    0.00069   18.9   0.1        1.2    8.4   0.0    2.6  2  XP_961122.3     ABC multidrug transporter [Neurospora crassa 
+     0.0011   18.2   0.4       0.71    9.1   0.0    2.8  2  XP_962220.3     ABC transporter [Neurospora crassa OR74A]
+     0.0015   17.7   0.0     0.0028   16.9   0.0    1.5  1  XP_011394317.1  hypothetical protein NCU08827 [Neurospora cra
+     0.0015   17.7   0.0     0.0028   16.9   0.0    1.5  1  XP_011394318.1  uncharacterized protein NCU08827 [Neurospora 
+     0.0021   17.3   0.1      0.042   13.1   0.0    2.1  2  XP_956603.2     ADP-ribosylation factor family protein [Neuro
+     0.0022   17.2   0.1      0.039   13.2   0.0    2.5  2  XP_957451.1     hypothetical protein NCU07226 [Neurospora cra
+     0.0022   17.2   0.2       0.78    8.9   0.1    2.5  2  XP_960553.1     ABC transporter CDR4 [Neurospora crassa OR74A
+     0.0023   17.1   0.0      0.009   15.2   0.0    2.1  1  XP_956366.1     hypothetical protein NCU03477 [Neurospora cra
+     0.0031   16.7   0.0      0.012   14.8   0.0    1.9  2  XP_962658.1     ATPase family AAA domain-containing protein 1
+     0.0033   16.7   0.0       0.26   10.5   0.0    2.7  2  XP_957228.1     hsp98-like protein [Neurospora crassa OR74A]
+     0.0037   16.5   0.3        1.3    8.1   0.0    2.5  2  XP_958018.1     elongation factor 3 [Neurospora crassa OR74A]
+     0.0044   16.3   0.2       0.07   12.3   0.0    2.6  2  XP_959904.1     26S protease regulatory subunit 6B [Neurospor
+      0.005   16.1   1.0       0.59    9.3   0.0    2.5  2  XP_963869.3     translation initiation factor RLI1 [Neurospor
+      0.005   16.1   0.6        2.3    7.4   0.0    2.4  2  XP_958070.1     ATP-binding cassette transporter [Neurospora 
+     0.0052   16.0   0.8        2.6    7.2   0.0    2.7  2  XP_957666.1     GCN20 [Neurospora crassa OR74A]
+      0.007   15.6   0.0        0.1   11.8   0.0    2.5  2  XP_955920.2     two-component sensor protein histidine protei
+     0.0073   15.5   0.7        1.4    8.1   0.3    2.5  2  XP_963760.2     hypothetical protein NCU09820 [Neurospora cra
+     0.0076   15.5   0.0      0.016   14.4   0.0    1.5  1  XP_956918.1     ATP binding protein [Neurospora crassa OR74A]
+     0.0077   15.4   2.0       0.18   11.0   0.8    3.0  2  XP_962231.1     hypothetical protein NCU06393 [Neurospora cra
+     0.0097   15.1   0.0      0.029   13.6   0.0    1.8  1  XP_956692.2     DNA repair and recombination protein pif1 [Ne
+  ------ inclusion threshold ------
+      0.012   14.8   0.0      0.028   13.6   0.0    1.5  1  XP_965475.1     glucokinase [Neurospora crassa OR74A]
+      0.013   14.7   0.0        3.2    7.0   0.0    2.8  2  XP_958819.2     multidrug resistance protein 3 [Neurospora cr
+      0.016   14.4   0.2       0.39    9.9   0.1    2.5  2  XP_961590.2     26S protease regulatory subunit 4 [Neurospora
+      0.019   14.1   0.0        2.3    7.4   0.0    2.9  2  XP_957605.1     mitochondrial Rho GTPase 1 [Neurospora crassa
+      0.023   13.9   0.0       0.23   10.7   0.0    2.2  2  XP_958048.1     vacuolar protein sorting-associated protein V
+      0.023   13.9   0.0      0.052   12.7   0.0    1.6  1  XP_962516.1     LON domain serine protease [Neurospora crassa
+      0.025   13.8   0.4        8.3    5.6   0.1    2.7  2  XP_964673.2     hypothetical protein NCU02051 [Neurospora cra
+      0.028   13.6   0.3        1.8    7.7   0.1    2.3  2  XP_958529.1     ABC multidrug transporter [Neurospora crassa 
+      0.028   13.6   0.0      0.071   12.3   0.0    1.6  1  XP_964805.3     RAB family GTPase [Neurospora crassa OR74A]
+       0.03   13.5   0.0      0.059   12.6   0.0    1.5  1  XP_961184.1     cell division control protein 12 [Neurospora 
+      0.032   13.4   0.2      0.083   12.1   0.0    1.7  1  XP_963253.2     ATP synthase beta subunit [Neurospora crassa 
+      0.034   13.4   0.1      0.087   12.0   0.0    1.7  1  XP_958860.2     proteasome 26S subunit [Neurospora crassa OR7
+      0.037   13.2   0.0      0.068   12.4   0.0    1.4  1  XP_965675.1     ABC transporter [Neurospora crassa OR74A]
+      0.038   13.2   0.0      0.086   12.0   0.0    1.6  1  XP_964321.1     cell cycle checkpoint protein RAD17 [Neurospo
+      0.043   13.0   0.0      0.083   12.1   0.0    1.4  1  XP_965431.2     ATP binding protein [Neurospora crassa OR74A]
+      0.047   12.9   3.4         19    4.4   0.0    4.5  3  XP_011394207.1  dynein heavy chain [Neurospora crassa OR74A]
+      0.047   12.9   3.4         19    4.4   0.0    4.5  3  XP_011394208.1  dynein heavy chain, variant [Neurospora crass
+      0.052   12.7   0.1       0.15   11.2   0.1    1.8  1  XP_955956.1     hypothetical protein NCU06414 [Neurospora cra
+      0.057   12.6   2.4       0.52    9.5   0.0    3.0  3  XP_958146.1     hypothetical protein NCU09012 [Neurospora cra
+      0.062   12.5   0.4       0.63    9.2   0.0    2.5  2  XP_961317.2     multidrug resistance-associated protein 5 [Ne
+      0.063   12.5   0.0       0.17   11.0   0.0    1.8  1  XP_957623.1     mitochondrial ATPase [Neurospora crassa OR74A
+      0.073   12.3   0.0       0.26   10.5   0.0    1.9  1  XP_957050.1     mitochondrial ATPase [Neurospora crassa OR74A
+      0.074   12.3   0.0       0.11   11.6   0.0    1.3  1  XP_961487.1     GTP-binding protein ypt7 [Neurospora crassa O
+      0.076   12.2   0.0       0.17   11.0   0.0    1.6  1  XP_011395174.1  AAA family ATPase [Neurospora crassa OR74A]
+      0.076   12.2   0.0       0.17   11.0   0.0    1.6  1  XP_011395175.1  AAA family ATPase, variant [Neurospora crassa
+      0.078   12.2   0.5       0.71    9.0   0.3    2.3  2  XP_965187.1     ABC drug exporter AtrF [Neurospora crassa OR7
+      0.081   12.1   0.0       0.25   10.5   0.0    1.8  1  XP_962576.2     hypothetical protein NCU06314 [Neurospora cra
+      0.095   11.9   0.0       0.27   10.4   0.0    1.9  1  XP_957124.1     hypothetical protein NCU06484 [Neurospora cra
+      0.097   11.9   0.0       0.19   10.9   0.0    1.5  1  XP_960955.3     phosphoribulokinase/uridine kinase [Neurospor
+        0.1   11.8   0.0       0.21   10.8   0.0    1.6  1  XP_965352.2     origin recognition complex subunit 1 [Neurosp
+        0.1   11.8   0.1       0.24   10.6   0.1    1.6  1  XP_964105.1     myosin-5 [Neurospora crassa OR74A]
+       0.11   11.7   0.0        1.9    7.7   0.0    2.6  2  XP_963539.2     replication factor C subunit 1 [Neurospora cr
+       0.11   11.7   0.1       0.34   10.1   0.1    1.8  1  XP_955769.1     RuvB-like helicase 1 [Neurospora crassa OR74A
+       0.11   11.6   0.2       0.22   10.7   0.2    1.4  1  XP_960859.1     ABC transporter [Neurospora crassa OR74A]
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_957359.3  midasin [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.3   0.0   0.00027     0.035       3      29 ..     321     347 ..     319     359 .. 0.89
+   2 !   11.2   0.1    0.0012      0.16       2      25 ..     653     676 ..     652     682 .. 0.89
+   3 !    8.3   0.0    0.0094       1.2       2      21 ..    1394    1413 ..    1393    1419 .. 0.89
+   4 !   10.6   0.0    0.0018      0.24       2      23 ..    1781    1802 ..    1780    1807 .. 0.89
+   5 !    8.8   0.0    0.0066      0.87       2      23 ..    2091    2112 ..    2090    2118 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 0.00027
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-S CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegkl 29 
+                  ++l+G +GsGKT L++++a+++ ++k+
+  XP_957359.3 321 ILLHGLSGSGKTSLVHEIARELGKQKQ 347
+                  89********************99884 PP
+
+  == domain 2  score: 11.2 bits;  conditional E-value: 0.0012
+                  CEEEEC-TTTCHHHHHHHHHHHHC CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawa 25 
+                  +++l Ge G+GKTt +q+la+ + 
+  XP_957359.3 653 PLLLVGETGIGKTTVVQQLAESLG 676
+                  6899****************9876 PP
+
+  == domain 3  score: 8.3 bits;  conditional E-value: 0.0094
+                   CEEEEC-TTTCHHHHHHHHH CS
+        NACHT    2 lvilqGeaGsGKTtLlqkla 21  
+                   +v+l Ge G+GKTt +q la
+  XP_957359.3 1394 PVLLVGETGCGKTTVVQLLA 1413
+                   699*************9887 PP
+
+  == domain 4  score: 10.6 bits;  conditional E-value: 0.0018
+                   CEEEEC-TTTCHHHHHHHHHHH CS
+        NACHT    2 lvilqGeaGsGKTtLlqklala 23  
+                   +++l+G +G+GKTtL+  la+a
+  XP_957359.3 1781 PILLEGNPGVGKTTLVTALARA 1802
+                   689***************9987 PP
+
+  == domain 5  score: 8.8 bits;  conditional E-value: 0.0066
+                   CEEEEC-TTTCHHHHHHHHHHH CS
+        NACHT    2 lvilqGeaGsGKTtLlqklala 23  
+                   ++il G++GsGK++Ll ++a  
+  XP_957359.3 2091 PCILVGPSGSGKSALLNHVAAM 2112
+                   589***************9865 PP
+
+>> XP_011393957.1  hypothetical protein NCU08537 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.4   0.4   1.7e-14   2.3e-12       1     165 [.     260     450 ..     260     450 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 46.4 bits;  conditional E-value: 1.7e-14
+                     SCEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC..-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C...................... CS
+           NACHT   1 rlvilqGeaGsGKTtLlqklalawaegklpqga..fklvFflslrelsrsgnarsladllfsqlpepaapvse...................... 71 
+                     r+ +++G++GsGK+tL++ l+++ ++++  +    ++ ++ ++l  +s  ++ rsl +ll+s   ++ ++ +                       
+  XP_011393957.1 260 RIYWIEGKPGSGKSTLMKLLVRDERTRQGLRSWsgHPIILSHFL-WISGTKDQRSLHKLLCSLVYQLLKEEQGlvdqliphcsfldnrsrqsrad 353
+                     568******************99998886654455444333333.33333444577777777766666666656666****************** PP
+
+                     ..........CHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHH..HCTTSSCE..EEEE--TCCH CS
+           NACHT  72 ..........vwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrd..leeqleeaivlevegfsesr 154
+                                 + l  l +r+   lDglDe+ +d++     + +++L++l+++   pe +l +++rp+   +  l++ l +     +e++++++
+  XP_011393957.1 354 ewstaelrqvLSKALHILNKRVCVFLDGLDEIDSDDRV----EFHRVLKDLLQA--EPEIKLCVASRPEVQLEviLKRVLPKL---RLEDLNRDD 439
+                     99999888866667777788888***********6666....************..*************99776555555555...********* PP
+
+                     HHHHHHHCTTT CS
+           NACHT 155 rkqlvrkyfsd 165
+                     + + vr++++d
+  XP_011393957.1 440 ISATVRDFLED 450
+                     ******99875 PP
+
+>> XP_011393958.1  uncharacterized protein NCU08537 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.4   0.4   1.7e-14   2.3e-12       1     165 [.     260     450 ..     260     450 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 46.4 bits;  conditional E-value: 1.7e-14
+                     SCEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC..-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C...................... CS
+           NACHT   1 rlvilqGeaGsGKTtLlqklalawaegklpqga..fklvFflslrelsrsgnarsladllfsqlpepaapvse...................... 71 
+                     r+ +++G++GsGK+tL++ l+++ ++++  +    ++ ++ ++l  +s  ++ rsl +ll+s   ++ ++ +                       
+  XP_011393958.1 260 RIYWIEGKPGSGKSTLMKLLVRDERTRQGLRSWsgHPIILSHFL-WISGTKDQRSLHKLLCSLVYQLLKEEQGlvdqliphcsfldnrsrqsrad 353
+                     568******************99998886654455444333333.33333444577777777766666666656666****************** PP
+
+                     ..........CHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHH..HCTTSSCE..EEEE--TCCH CS
+           NACHT  72 ..........vwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrd..leeqleeaivlevegfsesr 154
+                                 + l  l +r+   lDglDe+ +d++     + +++L++l+++   pe +l +++rp+   +  l++ l +     +e++++++
+  XP_011393958.1 354 ewstaelrqvLSKALHILNKRVCVFLDGLDEIDSDDRV----EFHRVLKDLLQA--EPEIKLCVASRPEVQLEviLKRVLPKL---RLEDLNRDD 439
+                     99999888866667777788888***********6666....************..*************99776555555555...********* PP
+
+                     HHHHHHHCTTT CS
+           NACHT 155 rkqlvrkyfsd 165
+                     + + vr++++d
+  XP_011393958.1 440 ISATVRDFLED 450
+                     ******99875 PP
+
+>> XP_959588.2  hypothetical protein NCU02194 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.3   0.0   2.7e-12   3.6e-10       2     132 ..     220     362 ..     219     379 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 39.3 bits;  conditional E-value: 2.7e-12
+                  CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C................CHHHHCCSCCCE CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse................vwavllelperl 83 
+                   ++++G +G GKT+L  ++++ +   k+ ++ + lv++ +    ++++++ s+ + l sql+ ++++vs                            l
+  XP_959588.2 220 SLWIHGIPGAGKTILTSHIIEHLTNTKCSGK-VALVYYYCYYGHNQDETF-SFLRWLISQLCRKSDTVSSltygiyrsgqdpnitkL-------LSAL 308
+                  68****************************8.8*************9988.*******************99999888855544442.......4444 PP
+
+                  E..........EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCH CS
+        NACHT  84 L..........lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpral 132
+                  L            +D+lDe ++  +     ++ ++L++l + + +++ +ll t+r  a 
+  XP_959588.2 309 LaqldsldtvyVAVDALDESQQPRD-----RMLDVLRTLATDSRFRKIRLLTTSREYAD 362
+                  4444555566699999999987555.....5***********************98665 PP
+
+>> XP_011393650.1  uncharacterized protein NCU09760 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.1   0.1   1.3e-11   1.7e-09       1     115 [.     274     405 ..     274     437 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 37.1 bits;  conditional E-value: 1.3e-11
+                     SCEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-.......-HCHHHCCCCTS--SSS-C.............CHHHHCC CS
+           NACHT   1 rlvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgna....rsladllfsqlpepaapvse.............vwavlle 78 
+                     r++ ++G++G GK+tL+  +++++  +k  + a+ +++f +++e+  +g      r l ++l +q p++ + ++              v      
+  XP_011393650.1 274 RILYVHGKPGGGKSTLISTVIEQLLGNKTAGAAVAFFYFRQSQEDASRGSLnnllRALLYQLIDQDPDLTDWITSmsgndrlrlsstnV------ 362
+                     56889***********************9998877777777777777774444444444444444444444444466444444443331...... PP
+
+                     SCCCEE...............EEEE-STT-SS-TCH.........HHHHHCT CS
+           NACHT  79 lperlL...............lilDglDelvtdlgqkekqpvrtlLselirk 115
+                          L               l+lDglDe+++  +    + + ++L +l + 
+  XP_011393650.1 363 -----LqdlvckgvgtqtalyLVLDGLDECRSGEE----ETIIKWLLGLSQS 405
+                     .....2666666667777777**********9444....4777777776555 PP
+
+>> XP_011393649.1  hypothetical protein NCU09760 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.1   0.1   1.3e-11   1.7e-09       1     115 [.     282     413 ..     282     445 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 37.1 bits;  conditional E-value: 1.3e-11
+                     SCEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-.......-HCHHHCCCCTS--SSS-C.............CHHHHCC CS
+           NACHT   1 rlvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgna....rsladllfsqlpepaapvse.............vwavlle 78 
+                     r++ ++G++G GK+tL+  +++++  +k  + a+ +++f +++e+  +g      r l ++l +q p++ + ++              v      
+  XP_011393649.1 282 RILYVHGKPGGGKSTLISTVIEQLLGNKTAGAAVAFFYFRQSQEDASRGSLnnllRALLYQLIDQDPDLTDWITSmsgndrlrlsstnV------ 370
+                     56889***********************9998877777777777777774444444444444444444444444466444444443331...... PP
+
+                     SCCCEE...............EEEE-STT-SS-TCH.........HHHHHCT CS
+           NACHT  79 lperlL...............lilDglDelvtdlgqkekqpvrtlLselirk 115
+                          L               l+lDglDe+++  +    + + ++L +l + 
+  XP_011393649.1 371 -----LqdlvckgvgtqtalyLVLDGLDECRSGEE----ETIIKWLLGLSQS 413
+                     .....2666666667777777**********9444....4777777776555 PP
+
+>> XP_962827.3  hypothetical protein NCU08565 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.1   0.0   2.7e-11   3.6e-09       3     163 ..     380     570 ..     378     573 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 36.1 bits;  conditional E-value: 2.7e-11
+                  EEEEC-TTTCHHHHHHHHHHH......HCTS-SCCCC..-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C....................C CS
+        NACHT   3 vilqGeaGsGKTtLlqklala......waegklpqga..fklvFflslrelsrsgnarsladllfsqlpepaapvse....................v 72 
+                   +++G+aGsGK+tL++ ++++      ++++  p++   f  +F  +l+++ ++  +  ++ ll +++++  + +++                     
+  XP_962827.3 380 YWIRGKAGSGKSTLMKYIISDrrlrhhLQRWAGPSDDliFANFFSWHLGADDQRLISGLMRSLLYQVFCARPDLIPTimpemcleaaksrngqletpS 477
+                  69*************98887622222266666666655555555556666655544455677777778888888887444666666666666666662 PP
+
+                  HHHHCCSCCCEE........................EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE..EE CS
+        NACHT  73 wavllelperlL........................lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleeaivle 146
+                                                      + +Dg+De++ d+++         L  lir +   +++ l+++rp +     + + +  +l 
+  XP_962827.3 478 -----------GtelriwferllhatatnvgnfrlfIAIDGIDEFQGDPEE---------LLYLIRNTKGDRVKYLVSSRPMQA--CTKAFGSYPSLR 553
+                  ...........044444444444777777999999777*********9999.........88*******************999..8888888789** PP
+
+                  EE--TCCHHHHHHHHCT CS
+        NACHT 147 vegfsesrrkqlvrkyf 163
+                  +++++e++++++ + ++
+  XP_962827.3 554 LQDLTEDDIRRYTEAML 570
+                  ***********988776 PP
+
+>> XP_963877.1  peroxisome biosynthesis protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.0   1.9e-07   2.5e-05       3     108 ..     557     657 ..     555     705 .. 0.79
+   2 ?    5.5   0.1     0.068         9       3      21 ..     893     911 ..     891     915 .. 0.87
+   3 ?   -0.3   0.0       4.1   5.4e+02      69     115 ..     938     983 ..     925    1005 .. 0.70
+   4 ?    1.1   0.0       1.5     2e+02       4      27 ..    1174    1197 ..    1173    1218 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 23.5 bits;  conditional E-value: 1.9e-07
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-CCHHHHCCSCCCEEEEEE-STT-SS-TCH. CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvsevwavllelperlLlilDglDelvtdlgq. 99 
+                  v+l+G +GsGKT  +q++a+++++ +l++ +     ++++ +l  ++   s +  + + l ++ ++ s      ++l  +++ +lD+lD+l+   ++ 
+  XP_963877.1 557 VLLTGGQGSGKTSVAQSIARTLRSTQLYHTT-----YFPCTKLVNDE---SRISNIKETLNHLFMAASW----GARLGGKAVVVLDDLDKLCPSEQEl 642
+                  89***************************65.....89999998887...5577777777777777766....7889999999*******99988877 PP
+
+                  ............... CS
+        NACHT 100 ......kekqpvrtl 108
+                        ++ +++ + 
+  XP_963877.1 643 qvgndnARSRQISEA 657
+                  777655444444444 PP
+
+  == domain 2  score: 5.5 bits;  conditional E-value: 0.068
+                  EEEEC-TTTCHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqkla 21 
+                  ++l G +G+GKT L+  +a
+  XP_963877.1 893 LLLYGYPGCGKTLLASAVA 911
+                  5899**********99876 PP
+
+  == domain 3  score: -0.3 bits;  conditional E-value: 4.1
+                  S-CCHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCT CS
+        NACHT  69 vsevwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirk 115
+                  v+    ++++ ++  +l +D +D ++ + g++    ++++ ++l+++
+  XP_963877.1 938 VRD-LFERASAAKPCVLFFDEFDSIAPKRGHDSTGVTDRVVNQLLTQ 983
+                  444.445677888999**********999995555555555555554 PP
+
+  == domain 4  score: 1.1 bits;  conditional E-value: 1.5
+                   EEEC-TTTCHHHHHHHHHHHHCTS CS
+        NACHT    4 ilqGeaGsGKTtLlqklalawaeg 27  
+                   +++G+aGsGK     ++++ w++ 
+  XP_963877.1 1174 AVNGKAGSGKEDAGPQVVVNWKHL 1197
+                   589*******87777777777765 PP
+
+>> XP_011393432.1  NACHT domain-containing protein, variant [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.4   0.1     9e-11   1.2e-08       2     153 ..     294     463 ..     293     477 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 34.4 bits;  conditional E-value: 9e-11
+                     CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C.................CHHHHCCS CS
+           NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse.................vwavllel 79 
+                      v+l+G +G GK++ + +l+  ++++    +   +  + +l++++ ++  rsl  +l++   +++a+                            
+  XP_011393432.1 294 FVWLHGIPGTGKSVIATQLVKFLQSSGKAMVIQHFCTYTHLSSVQYETILRSLLVQLMRTNSDLIAHAYAefvigkklptsqsleqlL------- 381
+                     69*************************8887788888889999888877788888888888888888888787777444444433330....... PP
+
+                     CCCEE.................EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE..EEEE--TCC CS
+           NACHT  80 perlL.................lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleeaivlevegfses 153
+                         L                 l++DglDe++ d +     ++ +lL++l    +  ++ +++ + +r+ ++le+ l++   ++v +++ +
+  XP_011393432.1 382 ----LafggavspmpsesrsiyLVIDGLDECEPDQQ----GRIANLLEKLRGLRSSASSVFKILLCSRRTQQLEKRLRKR-TVQVVSMTNE 463
+                     ....366666667777777777**********9544....5888888777555445555555555555666799999998.8888888766 PP
+
+>> XP_957922.2  hypothetical protein NCU04881 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.5   0.0   6.8e-10     9e-08       4     161 ..     398     586 ..     396     591 .. 0.74
+   2 ?    1.0   0.0       1.6   2.1e+02      67     109 ..     592     639 ..     563     687 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 31.5 bits;  conditional E-value: 6.8e-10
+                  EEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C...........CHHHHCCSCCCEE...... CS
+        NACHT   4 ilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse...........vwavllelperlL...... 84 
+                  +++ ++G+GK++L + l+++   +++p  +++++Ff    + + +++ + l  +lf q pe++++  e             + l+++++ +       
+  XP_957922.2 398 LITADPGCGKSVLSKYLIDQYLPQRCPTATVCYFFFKDGDQSTVKQALCALLHQLFGQKPELIKHALEehvrngdgligTTSSLWRVFKDATqderag 495
+                  67779***********************9888888877777777777799999999999999999999999999999995555555555555666666 PP
+
+                  ...EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHH....HCTTSSCE.................EEEE--TCCHHHHHHH CS
+        NACHT  85 ...lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrd....leeqleea...............ivlevegfsesrrkqlvr 160
+                     ++lD+lDe++ d         + l ++li++     +++llt+rp +        + +l++                i++e++  ++ r++q+v 
+  XP_957922.2 496 tiiILLDALDECEPDEF-------KLLVHNLIQA-GENPVKFLLTSRPYGDVIssfkYGDMLQRFprvlipgekedqsdqISTEINHVIQVRVEQFVH 585
+                  776**********8444.......5888999998.666688999999977644444444444444555555555565666666666666666666665 PP
+
+                  H CS
+        NACHT 161 k 161
+                  k
+  XP_957922.2 586 K 586
+                  5 PP
+
+  == domain 2  score: 1.0 bits;  conditional E-value: 1.6
+                  SSS-CCHHHHCCSCCCEE....EEEE-STT-SS-TCH..........H CS
+        NACHT  67 apvsevwavllelperlL....lilDglDelvtdlgq.kekqpvrtlL 109
+                  +  ++ wa+l + ++r+     l++D l+ lvt +    ++q  +t +
+  XP_957922.2 592 QLRDTLWAELNKTKHRTYlwvyLVFDHLETLVTSDALkRTPQGFKTAM 639
+                  334456777777777776678899999999998776654444444444 PP
+
+>> XP_011393433.1  NACHT domain-containing protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   0.1     1e-10   1.3e-08       2     153 ..     329     498 ..     328     512 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 1e-10
+                     CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C.................CHHHHCCS CS
+           NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse.................vwavllel 79 
+                      v+l+G +G GK++ + +l+  ++++    +   +  + +l++++ ++  rsl  +l++   +++a+                            
+  XP_011393433.1 329 FVWLHGIPGTGKSVIATQLVKFLQSSGKAMVIQHFCTYTHLSSVQYETILRSLLVQLMRTNSDLIAHAYAefvigkklptsqsleqlL------- 416
+                     69*************************8887788888889999888877788888888888888888888787777444444433330....... PP
+
+                     CCCEE.................EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE..EEEE--TCC CS
+           NACHT  80 perlL.................lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleeaivlevegfses 153
+                         L                 l++DglDe++ d +     ++ +lL++l    +  ++ +++ + +r+ ++le+ l++   ++v +++ +
+  XP_011393433.1 417 ----LafggavspmpsesrsiyLVIDGLDECEPDQQ----GRIANLLEKLRGLRSSASSVFKILLCSRRTQQLEKRLRKR-TVQVVSMTNE 498
+                     ....366666667777777777**********9544....5888888777555445555555555555666799999998.8888888766 PP
+
+>> XP_011393626.1  hypothetical protein NCU08705 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.0   1.7e-09   2.2e-07       3     162 ..     289     475 ..     287     479 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 1.7e-09
+                     EEEEC-TTTCHHHHHHHHHH........HHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C.................. CS
+           NACHT   3 vilqGeaGsGKTtLlqklal........awaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse.................. 71 
+                      ++ G+aGsGK+tL++ l++        ++++g+lp   +  +Ff  l++ ++++ + +l + +   l+e ++   +                  
+  XP_011393626.1 289 YWICGKAGSGKSTLMKYLHDnpdtraplQAWAGDLPLT-VGSFFFWGLGTQEQKSLE-GLSRAILYRLLEAESSYLPsalprlwqevrinahkep 381
+                     699***************97222222223555666664.566777778887777766.7777777777777776666556667777777777777 PP
+
+                     .............CHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE..EEEE--TCC CS
+           NACHT  72 .............vwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleeaivlevegfses 153
+                                  +++   + ++r  l +DglDe++  ++      + +l+++l++    p  ++++++rp a     + +++   l++e+++++
+  XP_011393626.1 382 dppssgelrtaseFMTKKFQPKHRFCLFIDGLDEFQGNFHD-----AIKLIRGLCSN---PAIKVIVSSRPIAI--CYHAFSRVPQLHMESLTRN 466
+                     77777777776666666666666666***********8888.....77777777777...77777777777777..9999999999********* PP
+
+                     HHHHHHHHC CS
+           NACHT 154 rrkqlvrky 162
+                     ++k++++++
+  XP_011393626.1 467 DIKEYINDV 475
+                     *****9876 PP
+
+>> XP_962530.3  hypothetical protein NCU08317 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.1   0.0   7.5e-09   9.9e-07       3     141 ..     597     752 ..     595     764 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 28.1 bits;  conditional E-value: 7.5e-09
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-CCHHHHCCSCCCEE................ CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvsevwavllelperlL................ 84 
+                  +++ G+ GsGKTtL++++++++ +++ ++  f +v +  +  + ++ + r + ++l +++    + +++  ++ +    +lL                
+  XP_962530.3 597 MMVIGARGSGKTTLVESIMSDMSSQHKDE--FHVVRLNGFIHTDDKLALREIWRQLGKEMAVQDELINKTTNNHADTMASLLallshpaeiglvpqdg 692
+                  7899**********************777..7777666666666655557777778777777777777766667777777777777777788899999 PP
+
+                  .......EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEE...EEEECCCHHHHCTTSSC CS
+        NACHT  85 .......lilDglDelvtdlgqkekqpvrtlLselirkkllpeasll...ltvrpralrdleeqlee 141
+                         +++D +D ++t+ +q       tlL +l+  +  ++a++    lt+r + ++ le+ +++
+  XP_962530.3 693 vtsrsiiFLIDEFDLFATHARQ-------TLLYNLFDIAQARKAPIAvlgLTTRIDVVESLEKRVKS 752
+                  9*****************9999.......77777776666666555411167777777776666655 PP
+
+>> XP_961929.3  pfs domain-containing protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   2.3e-08     3e-06       2     160 ..     477     653 ..     476     658 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 26.5 bits;  conditional E-value: 2.3e-08
+                  CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC.-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C.......................CHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqga.fklvFflslrelsrsgnarsladllfsqlpepaapvse.......................vwav 75 
+                  +++ +G +G GKT+L   ++++    +       +  +  +  +++ +++a++l   l++ql+ +++  s+                         + 
+  XP_961929.3 477 VLFCEGIPGAGKTILSSIVIEDVTNITHSLAGeIEAAYIYCDYRRQGEQTALTLLSSLTKQLCLSKESLSPgvgalhakhtskstrpslqevtqALKD 574
+                  67889**************999987654432237777777777777777788999********999999999*******************9998899 PP
+
+                  HCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE..EEEE--TCCHHHHHHH CS
+        NACHT  76 llelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleeaivlevegfsesrrkqlvr 160
+                  ++++++r+  i+D+lDel +d ++  +++  + L++l +    p+ +l++t+rp    d+ + + +a+ +ev + ++++ +++v 
+  XP_961929.3 575 VIKHFTRVYVIVDALDELLDDEDH--RTAFVDGLRNLGQS--SPNLKLFVTSRPLLT-DISQFFDDAAKVEVSA-NQDDLRRYVD 653
+                  99******************9998..9999999****999..************988.9********9999987.6666666665 PP
+
+>> XP_962130.3  ABC bile acid transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.0   0.00053     0.069       4      56 ..     729     779 ..     727     795 .. 0.80
+   2 !   10.4   0.1    0.0021      0.28       2      25 ..    1361    1384 ..    1360    1394 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00053
+                  EEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCH CS
+        NACHT   4 ilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarslad 56 
+                  ++ G+ G+GKT+Llq +  ++ +   +++ ++      ++++++ + + s++d
+  XP_962130.3 729 LVCGKVGIGKTALLQAILGELDQHSGEKN-VPAEMIGYCAQMPWLESM-SIRD 779
+                  688******************99998885.687777777777777666.5555 PP
+
+  == domain 2  score: 10.4 bits;  conditional E-value: 0.0021
+                   CEEEEC-TTTCHHHHHHHHHHHHC CS
+        NACHT    2 lvilqGeaGsGKTtLlqklalawa 25  
+                   +v+++G+ GsGK+tL+  l ++++
+  XP_962130.3 1361 TVAVTGRTGSGKSTLAYALLSTIQ 1384
+                   89**************99998876 PP
+
+>> XP_964271.2  cell division control protein Cdc6 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   0.0   1.2e-07   1.6e-05       4     117 ..     205     316 ..     203     337 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 1.2e-07
+                  EEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-....-HCHHHCCCCTS--SSS-CCHHHHCCSCCCEE..........EEEE-S CS
+        NACHT   4 ilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgna.rsladllfsqlpepaapvsevwavllelperlL..........lilDgl 90 
+                   + G++G GK++ + k+ ++ a+++    +     ++++ +++ s++   +l d+l+s+  ++++ ++e   v+++l++ +L           +lD +
+  XP_964271.2 205 YVSGPPGTGKSAIVNKVTDKFASETSTVRK----AYINCMSIKSSKDLyVTLLDQLVSKDEDKEELSTE-SDVVAALQKLILprkktqdvflVVLDEI 297
+                  689**********************77754....57777777777777799*****************9.88888888888888888888889***** PP
+
+                  TT-SS-TCH.........HHHHHCTTT CS
+        NACHT  91 DelvtdlgqkekqpvrtlLselirkkl 117
+                  D + t +++         L +l++ +l
+  XP_964271.2 298 DHILTLDPE--------SLYSLFEWSL 316
+                  ****98887........3333333333 PP
+
+>> XP_011392839.1  uncharacterized protein NCU00874 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   1.3e-07   1.7e-05       2     142 ..     219     371 ..     218     382 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 24.1 bits;  conditional E-value: 1.3e-07
+                     CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-.......-HCHHHCCCCTS--SSS-C..................... CS
+           NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgna....rsladllfsqlpepaapvse..................... 71 
+                     +++l+G++G GK++ + ++++ + + +     f+ +F+++ r ++  +++    +s+a++++++  ++ + +                       
+  XP_011392839.1 219 VLWLNGRPGTGKSVVAGHVIRFLEACN-----FDCSFYFFRRNTQAATTVsgllLSMAYQMAQNNFDIRRSIAAmaedgqrlshadhhmiwsklf 308
+                     79******************9998777.....888999999999998888666667777777776666666666555555555555555555555 PP
+
+                     .CHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE CS
+           NACHT  72 .vwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleea 142
+                       +++++e  +    ++D++De++++  +    +   ++s+l  k      ++++t+rp++   le++l ++
+  XP_011392839.1 309 lERIFRTETTRPQFWVIDAADECSSKGLA----AFISMISNLSCK---VPIRVFMTSRPGGQ--LERLLHHE 371
+                     555555555555559*********94444....455555555444...34678888888888..88888877 PP
+
+>> XP_011392840.1  hypothetical protein NCU00874 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.9   0.0   1.4e-07   1.9e-05       2     142 ..     305     457 ..     304     468 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 23.9 bits;  conditional E-value: 1.4e-07
+                     CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-.......-HCHHHCCCCTS--SSS-C..................... CS
+           NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgna....rsladllfsqlpepaapvse..................... 71 
+                     +++l+G++G GK++ + ++++ + + +     f+ +F+++ r ++  +++    +s+a++++++  ++ + +                       
+  XP_011392840.1 305 VLWLNGRPGTGKSVVAGHVIRFLEACN-----FDCSFYFFRRNTQAATTVsgllLSMAYQMAQNNFDIRRSIAAmaedgqrlshadhhmiwsklf 394
+                     79******************9998777.....888999999999998888666667777777776666666666555555555555555555555 PP
+
+                     .CHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE CS
+           NACHT  72 .vwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdleeqleea 142
+                       +++++e  +    ++D++De++++  +    +   ++s+l  k      ++++t+rp++   le++l ++
+  XP_011392840.1 395 lERIFRTETTRPQFWVIDAADECSSKGLA----AFISMISNLSCK---VPIRVFMTSRPGGQ--LERLLHHE 457
+                     555555555555559*********94444....455555555444...34678888888888..88888877 PP
+
+>> XP_965579.2  hypothetical protein NCU02897 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.1         7   9.2e+02     116     162 ..      77     121 ..      13     124 .. 0.65
+   2 !   23.4   0.2   2.1e-07   2.8e-05       3     132 ..     169     309 ..     167     347 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: -1.1 bits;  conditional E-value: 7
+                  TTTT--EEEEEEECCCHHHHCTTSSCE..EEEE--TCCHHHHHHHHC CS
+        NACHT 116 kllpeasllltvrpralrdleeqleeaivlevegfsesrrkqlvrky 162
+                  +l+ +   llt++  a r+ +   e  +  +++ fs+  r+q++ + 
+  XP_965579.2  77 ALIEKQFTLLTSSQAADRQQAARKE--TGGMIRRFSKAWRRQYILEQ 121
+                  4666677777777777744333333..44789999999999998775 PP
+
+  == domain 2  score: 23.4 bits;  conditional E-value: 2.1e-07
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C................CHHHHCCSCCCEE CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse................vwavllelperlL 84 
+                  + ++G  G+GKT+ l+ ++ ++  +k ++       f++ r++++  +  ++   ++ ql++++   +e                 ++++++l ++lL
+  XP_965579.2 169 LRVTGHLGCGKTVALATIIADAPMEKKKH-----AGFICKRDDPHTLKGFTILGSIAHQLLQSGTVRQEwekliqgnpdtflgalSVSFIVQLLQSLL 261
+                  5689***************9999999666.....4588888888887778888899999999998888877777777778888777777777777777 PP
+
+                  .......EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCH CS
+        NACHT  85 .......lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpral 132
+                          ilDglDe+++++ +     v + L++l ++    + s+  ++r +a+
+  XP_965579.2 262 prdetfyVILDGLDECSEEDVE----IVLQALQDLRQQ---HQISVCFSTRLDAS 309
+                  *****99**********96666....666666666555...55555555555554 PP
+
+>> XP_958689.1  ATP-binding cassette sub-family F member 2 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.6   0.0   0.00091      0.12       5      21 ..     111     127 ..     107     129 .. 0.89
+   2 !    9.2   0.0     0.005      0.66       3      26 ..     423     446 ..     421     502 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00091
+                  EEC-TTTCHHHHHHHHH CS
+        NACHT   5 lqGeaGsGKTtLlqkla 21 
+                  l Ge+G+GK+tLl+ +a
+  XP_958689.1 111 LLGENGCGKSTLLKAIA 127
+                  78************998 PP
+
+  == domain 2  score: 9.2 bits;  conditional E-value: 0.005
+                  EEEEC-TTTCHHHHHHHHHHHHCT CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawae 26 
+                   +l G++G+GK+tLl+ +  ++  
+  XP_958689.1 423 TALVGPNGVGKSTLLRLMTGKLSP 446
+                  6899***********977776654 PP
+
+>> XP_961654.3  hypothetical protein NCU01042 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.1   0.0     1e-06   0.00014       3      71 ..      63     129 ..      62     171 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 21.1 bits;  conditional E-value: 1e-06
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-C CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvse 71 
+                  +++ G+ G+GKTtL+qk+  + +++   + + ++++ l++ + s  +n+ ++ +l + +lp+p+++ ++
+  XP_961654.3  63 ILILGAEGVGKTTLVQKFSKTHRHPSTSKPN-RFLLPLPSDSSSSGENS-TVYTLHTLELPHPWSTTTR 129
+                  789**********************999976.88888888888877777.5555555567777766655 PP
+
+>> XP_011393721.1  cell division control protein Cdc48 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.028       3.7       3      23 ..     261     281 ..     259     284 .. 0.88
+   2 !   11.7   0.0   0.00082      0.11       3      26 ..     535     558 ..     533     575 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.028
+                     EEEEC-TTTCHHHHHHHHHHH CS
+           NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                     v+l G++G GKT +++ +a +
+  XP_011393721.1 261 VLLYGPPGTGKTLMARAVANE 281
+                     899************999875 PP
+
+  == domain 2  score: 11.7 bits;  conditional E-value: 0.00082
+                     EEEEC-TTTCHHHHHHHHHHHHCT CS
+           NACHT   3 vilqGeaGsGKTtLlqklalawae 26 
+                     v+  G++G GKT+L++ +a + a+
+  XP_011393721.1 535 VLFYGPPGTGKTMLAKAVANECAA 558
+                     7889**************998876 PP
+
+>> XP_011393722.1  cell division control protein Cdc48, variant [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.0     0.028       3.7       3      23 ..     261     281 ..     259     284 .. 0.88
+   2 !   11.7   0.0   0.00082      0.11       3      26 ..     535     558 ..     533     575 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.028
+                     EEEEC-TTTCHHHHHHHHHHH CS
+           NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                     v+l G++G GKT +++ +a +
+  XP_011393722.1 261 VLLYGPPGTGKTLMARAVANE 281
+                     899************999875 PP
+
+  == domain 2  score: 11.7 bits;  conditional E-value: 0.00082
+                     EEEEC-TTTCHHHHHHHHHHHHCT CS
+           NACHT   3 vilqGeaGsGKTtLlqklalawae 26 
+                     v+  G++G GKT+L++ +a + a+
+  XP_011393722.1 535 VLFYGPPGTGKTMLAKAVANECAA 558
+                     7889**************998876 PP
+
+>> XP_964055.1  heat shock protein 78 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   0.0    0.0018      0.23       4      31 ..     130     157 ..     129     232 .. 0.88
+   2 ?    7.2   0.0      0.02       2.7       5     113 ..     529     620 ..     526     630 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0018
+                  EEEC-TTTCHHHHHHHHHHHHCTS-SCC CS
+        NACHT   4 ilqGeaGsGKTtLlqklalawaegklpq 31 
+                  +l G aG+GKT+ l++lal++ +g  p+
+  XP_964055.1 130 VLIGCAGVGKTAILEGLALEIVKGAVPE 157
+                  689******************9998876 PP
+
+  == domain 2  score: 7.2 bits;  conditional E-value: 0.02
+                  EEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-...-HCHHHCCCCTS--SSS-CCHHHHCCSCCCEEEEEE-STT-SS-TCH... CS
+        NACHT   5 lqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgnarsladllfsqlpepaapvsevwavllelperlLlilDglDelvtdlgqkek 102
+                    G+ G+GKT L +kla  + + +        v  + ++e++++    ++ +l+ ++    + +     ++ ++++  ++++lD ++++++d ++   
+  XP_964055.1 529 FLGPTGVGKTELCKKLAGFLFSTE------TAVVRFDMSEFQEKH---TISRLIGAPSGYVGYEDAGQLTEAVRRKPYAVILLDEFEKAHRDISA--- 614
+                  68**************98777766......456678888888875...56777777777777777666777888888888888888888887777... PP
+
+                  ......HHHHH CS
+        NACHT 103 qpvrtlLseli 113
+                       lL + +
+  XP_964055.1 615 -----LLLQVL 620
+                  .....555555 PP
+
+>> XP_956487.1  AAA family ATPase/60S ribosome export protein Rix7 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   0.2   0.00052     0.069       3      21 ..     259     277 ..     257     283 .. 0.90
+   2 ?    5.7   0.0     0.056       7.4       3      23 ..     585     605 ..     584     611 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00052
+                  EEEEC-TTTCHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqkla 21 
+                  v+l+G++G+GKTtL++ +a
+  XP_956487.1 259 VLLHGPSGCGKTTLAHAVA 277
+                  79*************9987 PP
+
+  == domain 2  score: 5.7 bits;  conditional E-value: 0.056
+                  EEEEC-TTTCHHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                  ++l G++G+GKT  ++ +a +
+  XP_956487.1 585 ILLWGPPGCGKTLVAKAVANE 605
+                  6789***********999976 PP
+
+>> XP_956834.1  vesicular-fusion protein SEC18 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.5   0.0     0.032       4.3       3      27 ..     362     386 ..     360     394 .. 0.85
+   2 !    9.6   0.0    0.0037      0.48       2      23 ..     643     664 ..     642     666 .. 0.93
+   3 ?    0.9   0.0       1.8   2.3e+02      84     141 ..     705     763 ..     692     785 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 6.5 bits;  conditional E-value: 0.032
+                  EEEEC-TTTCHHHHHHHHHHHHCTS CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaeg 27 
+                  ++l G++G GKT  ++++   + ++
+  XP_956834.1 362 MLLYGPPGTGKTLIARQIGKMLNAR 386
+                  6899*************98777665 PP
+
+  == domain 2  score: 9.6 bits;  conditional E-value: 0.0037
+                  CEEEEC-TTTCHHHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqklala 23 
+                  +v+l+G++ sGKT+L++++a++
+  XP_956834.1 643 TVLLHGPSASGKTALAAHIAMK 664
+                  799****************986 PP
+
+  == domain 3  score: 0.9 bits;  conditional E-value: 1.8
+                  EEEEE-STT-SS-TCH.........HHHHHC..TTTTT--EEEEEEECCCHHHHCTTSSC CS
+        NACHT  84 LlilDglDelvtdlgqkekqpvrtlLselir..kkllpeasllltvrpralrdleeqlee 141
+                  Lli+D ++++ + ++  +++ ++t L+ l++   + +p+ + ll++ +++ r + eql  
+  XP_956834.1 705 LLIIDNIERIIEWNPV-GPRLSNTILQALVTllVTPPPKGHRLLILATTSQRTVMEQLDV 763
+                  89*******9998888.6666666666665522233556555555555555566666554 PP
+
+>> XP_962438.1  elongation factor 3 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.8   0.0   0.00075     0.099       5      39 ..     468     502 ..     465     535 .. 0.89
+   2 ?    5.6   0.0     0.062       8.2       2      21 ..     708     727 ..     707     759 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00075
+                  EEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEE CS
+        NACHT   5 lqGeaGsGKTtLlqklalawaegklpqgafklvFf 39 
+                  l G++GsGK+tL++ +  +  eg ++q ++k vF+
+  XP_962438.1 468 LCGPNGSGKSTLMRAINNEQVEGFPKQSEVKTVFV 502
+                  569*********************99999999997 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.062
+                  CEEEEC-TTTCHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqkla 21 
+                   +++ G++G GK+tL+  l 
+  XP_962438.1 708 RIAVIGPNGAGKSTLINVLT 727
+                  5899***********98765 PP
+
+>> XP_956329.1  ribosome biogenesis protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0     1e-05    0.0013       1      30 [.      71     100 ..      71     144 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 1e-05
+                  SCEEEEC-TTTCHHHHHHHHHHHHCTS-SC CS
+        NACHT   1 rlvilqGeaGsGKTtLlqklalawaegklp 30 
+                  rlv++ G++G+GKTtLl+++++  a+++ +
+  XP_956329.1  71 RLVAIVGPPGVGKTTLLKSFIRRYAKETIQ 100
+                  789*******************99998865 PP
+
+>> XP_961122.3  ABC multidrug transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.6   0.0     0.015       1.9       4      23 ..     713     732 ..     711     758 .. 0.78
+   2 !    8.4   0.0    0.0089       1.2       3      21 ..    1386    1404 ..    1384    1411 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.6 bits;  conditional E-value: 0.015
+                  EEEC-TTTCHHHHHHHHHHH CS
+        NACHT   4 ilqGeaGsGKTtLlqklala 23 
+                  ++ G+ GsGK+tLl++l+ +
+  XP_961122.3 713 AVIGPVGSGKSTLLESLVGE 732
+                  689*************9854 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.0089
+                   EEEEC-TTTCHHHHHHHHH CS
+        NACHT    3 vilqGeaGsGKTtLlqkla 21  
+                   +++ G++GsGKTt+l +l 
+  XP_961122.3 1386 LAVIGPSGSGKTTFLLSLL 1404
+                   6899***********8886 PP
+
+>> XP_962220.3  ABC transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.1   0.0    0.0054      0.71       4      21 ..     649     666 ..     647     687 .. 0.85
+   2 ?    6.4   0.1     0.036       4.7       2      20 ..    1262    1280 ..    1261    1283 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.0054
+                  EEEC-TTTCHHHHHHHHH CS
+        NACHT   4 ilqGeaGsGKTtLlqkla 21 
+                  i++G++GsGKT Ll ++ 
+  XP_962220.3 649 IIKGQSGSGKTSLLLSIL 666
+                  89************9986 PP
+
+  == domain 2  score: 6.4 bits;  conditional E-value: 0.036
+                   CEEEEC-TTTCHHHHHHHH CS
+        NACHT    2 lvilqGeaGsGKTtLlqkl 20  
+                    +++ G+ GsGK+tL+ +l
+  XP_962220.3 1262 RIAVVGRTGSGKSTLVLSL 1280
+                   5899***********9776 PP
+
+>> XP_011394317.1  hypothetical protein NCU08827 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   0.0   2.1e-05    0.0028       5      29 ..      75      99 ..      72     157 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 2.1e-05
+                    EEC-TTTCHHHHHHHHHHHHCTS-S CS
+           NACHT  5 lqGeaGsGKTtLlqklalawaegkl 29
+                    l+G +G+GKTtL++ la++++e++ 
+  XP_011394317.1 75 LNGVQGVGKTTLVKALAETLQEREG 99
+                    89******************99874 PP
+
+>> XP_011394318.1  uncharacterized protein NCU08827 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   0.0   2.1e-05    0.0028       5      29 ..      75      99 ..      72     157 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 16.9 bits;  conditional E-value: 2.1e-05
+                    EEC-TTTCHHHHHHHHHHHHCTS-S CS
+           NACHT  5 lqGeaGsGKTtLlqklalawaegkl 29
+                    l+G +G+GKTtL++ la++++e++ 
+  XP_011394318.1 75 LNGVQGVGKTTLVKALAETLQEREG 99
+                    89******************99874 PP
+
+>> XP_956603.2  ADP-ribosylation factor family protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0       0.6        79       7      22 ..      21      36 ..      15      43 .. 0.80
+   2 !   13.1   0.0   0.00032     0.042      68     134 ..      70     129 ..      64     164 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 2.4 bits;  conditional E-value: 0.6
+                 C-TTTCHHHHHHHHHH CS
+        NACHT  7 GeaGsGKTtLlqklal 22
+                 G    GKTt ++k++ 
+  XP_956603.2 21 GLDNAGKTTIVKKIMN 36
+                 55557*********96 PP
+
+  == domain 2  score: 13.1 bits;  conditional E-value: 0.00032
+                  SS-CCHHHHCCSCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHH CS
+        NACHT  68 pvsevwavllelperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrd 134
+                  + + +w +  e  + l  ++D+ D+l+ ++++       + L++l++++ l++asll+ +  + +r 
+  XP_956603.2  70 TLRSYWRNYFEKTDALIWVVDATDRLRIQDCK-------DELHGLLQEERLSGASLLVFANKTDVRG 129
+                  567799999******************99999.......99*****************998887765 PP
+
+>> XP_957451.1  hypothetical protein NCU07226 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.2   0.0   0.00029     0.039       1      28 [.     315     342 ..     315     404 .. 0.75
+   2 ?    1.1   0.1       1.5     2e+02      85     125 ..     562     610 ..     490     646 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 0.00029
+                  SCEEEEC-TTTCHHHHHHHHHHHHCTS- CS
+        NACHT   1 rlvilqGeaGsGKTtLlqklalawaegk 28 
+                  r  ++ G++G GK++L++ l+ +++++ 
+  XP_957451.1 315 RRFWISGDPGTGKSVLMKYLVNEAQRNA 342
+                  5689*****************9998875 PP
+
+  == domain 2  score: 1.1 bits;  conditional E-value: 1.5
+                  EEEE-STT-SS-TCH..................H.HHHHCTTTTT--EEEE CS
+        NACHT  85 lilDglDelvtdlgq.........kekqpvrtlL.selirkkllpeaslll 125
+                   +lD+lD+++++ +q           + p  +lL s+l+++  + +++ +l
+  XP_957451.1 562 EVLDALDRIKREAPQssfssssdlPPPLPRSELLySSLLTR--FHTSHSKL 610
+                  589******99999977777766644555555552345555..44444443 PP
+
+>> XP_960553.1  ABC transporter CDR4 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.6   0.0      0.06         8       2      21 ..     230     249 ..     229     253 .. 0.90
+   2 !    8.9   0.1    0.0059      0.78       3      30 ..     930     957 ..     928     963 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 5.6 bits;  conditional E-value: 0.06
+                  CEEEEC-TTTCHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqkla 21 
+                  ++++ G++GsG Tt+l+ +a
+  XP_960553.1 230 MLVVLGPPGSGCTTFLKTIA 249
+                  5899**************98 PP
+
+  == domain 2  score: 8.9 bits;  conditional E-value: 0.0059
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SC CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklp 30 
+                   +l G +G GKTtLl  la+ +  g   
+  XP_960553.1 930 TALMGVSGAGKTTLLDCLADRINVGVIT 957
+                  6799***************998877655 PP
+
+>> XP_956366.1  hypothetical protein NCU03477 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.2   0.0   6.8e-05     0.009       5     165 ..      97     261 ..      93     262 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 15.2 bits;  conditional E-value: 6.8e-05
+                  EEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-....-HCHHHCCCCTS--SSS-C...CHHHHCCSCCCEEEEEE-STT-SS-TC CS
+        NACHT   5 lqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgna.rsladllfsqlpepaapvse...vwavllelperlLlilDglDelvtdlg 98 
+                  l G  G+GK+ ++ + a+++ ++ ++     ++F++  r++    +  r +a+ l   lp+p+++ ++    +   +   ++ L+ilD +D++   ++
+  XP_956366.1  97 LWGLGGIGKSQFAIRYAQDLEQRSPET----FIFWIYARTRDLFITGyREIAEKLG-LLPDPSEADETvllAVRDWCNENKQWLMILDNADDATIFMN 189
+                  66888*******************777....6666666665554333468888885.567777666665554555699999***********998777 PP
+
+                  H..................HHHHHCTTTTT--EEEEEEECCCHHHHCTTSSCE...EEEE--TCCHHHHHHHHCTTT CS
+        NACHT  99 q.........kekqpvrtlLselirkkllpeasllltvrpralrdleeqleea.ivlevegfsesrrkqlvrkyfsd 165
+                            ++ +   + Lse ++    ++  ll+t+r +a+   ++ l+ +     v++++e ++ ql+rk ++d
+  XP_956366.1 190 TttsecgaseDGSAIKGKPLSEFLPC--GQTGNLLITSRDKAV---AQFLAGKwNARDVPAMTEHEAIQLLRKKLRD 261
+                  79999999876666667789999999..89999**********...555555545569**************99887 PP
+
+>> XP_962658.1  ATPase family AAA domain-containing protein 1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.0   9.2e-05     0.012       3      23 ..     156     176 ..     154     185 .. 0.89
+   2 ?   -1.1   0.0       7.2   9.5e+02      62      91 ..     194     222 ..     176     237 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 9.2e-05
+                  EEEEC-TTTCHHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                  v+l G++G+GKT+L++ +a++
+  XP_962658.1 156 VLLYGPPGCGKTMLAKAVAHE 176
+                  799**************9986 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 7.2
+                  CTS--SSS-CCHHHHCCSCCCEEEEEE-ST CS
+        NACHT  62 lpepaapvsevwavllelperlLlilDglD 91 
+                  + ++++ v+ v+++ l+l+  + +i D +D
+  XP_962658.1 194 YGDSNKLVRAVFSLALKLQPAIIFI-DEID 222
+                  5678888999999999999999886.5555 PP
+
+>> XP_957228.1  hsp98-like protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.5   0.0     0.002      0.26       4      29 ..     221     246 ..     220     260 .. 0.86
+   2 ?    3.1   0.0      0.37        49       6      22 ..     634     650 ..     630     714 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.002
+                  EEEC-TTTCHHHHHHHHHHHHCTS-S CS
+        NACHT   4 ilqGeaGsGKTtLlqklalawaegkl 29 
+                  +l Ge+G+GKTt +++la+ +   + 
+  XP_957228.1 221 VLIGEPGVGKTTVVEGLAQRIVNADV 246
+                  689***************98866655 PP
+
+  == domain 2  score: 3.1 bits;  conditional E-value: 0.37
+                  EC-TTTCHHHHHHHHHH CS
+        NACHT   6 qGeaGsGKTtLlqklal 22 
+                   G++G GKT L + la+
+  XP_957228.1 634 CGPSGTGKTLLTKALAE 650
+                  69*********999986 PP
+
+>> XP_958018.1  elongation factor 3 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.1   0.0      0.01       1.3       6      31 ..     501     526 ..     497     613 .. 0.80
+   2 ?    5.9   0.1     0.049       6.5       2      19 ..     742     759 ..     741     764 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.01
+                  EC-TTTCHHHHHHHHHHHHCTS-SCC CS
+        NACHT   6 qGeaGsGKTtLlqklalawaegklpq 31 
+                   G++G GK+tL++ +a+   eg + q
+  XP_958018.1 501 CGRNGAGKSTLMKAIASGKLEGFPSQ 526
+                  69*************99766666555 PP
+
+  == domain 2  score: 5.9 bits;  conditional E-value: 0.049
+                  CEEEEC-TTTCHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqk 19 
+                   v++ G++G GK+tL++ 
+  XP_958018.1 742 RVAIIGPNGAGKSTLIKL 759
+                  689************975 PP
+
+>> XP_959904.1  26S protease regulatory subunit 6B [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.0   0.00053      0.07       3      22 ..     202     221 ..     200     227 .. 0.88
+   2 ?    1.0   0.0       1.6   2.1e+02      68     115 ..     246     295 ..     221     346 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00053
+                  EEEEC-TTTCHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklal 22 
+                  v+l G++G GKT+L++ +a 
+  XP_959904.1 202 VLLYGPPGTGKTMLVKAVAN 221
+                  899*************9986 PP
+
+  == domain 2  score: 1.0 bits;  conditional E-value: 1.6
+                  SS-CCHHHHCCSCCCEEEEEE-STT-SS-TCH............HHHHHCT CS
+        NACHT  68 pvsevwavllelperlLlilDglDelvtdlgq...kekqpvrtlLselirk 115
+                   v+ v+ +  e++  + + +D +D ++t+         ++v++ L el+++
+  XP_959904.1 246 MVRDVFRMARENAPAIIF-IDEIDAIATKRFDaqtGADREVQRILLELLNQ 295
+                  555555555555555555.68888887754335555566777777788775 PP
+
+>> XP_963869.3  translation initiation factor RLI1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.9   0.2       0.1        13       4      24 ..     107     127 ..     104     134 .. 0.83
+   2 !    9.3   0.0    0.0045      0.59       2      26 ..     377     401 ..     376     437 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 4.9 bits;  conditional E-value: 0.1
+                  EEEC-TTTCHHHHHHHHHHHH CS
+        NACHT   4 ilqGeaGsGKTtLlqklalaw 24 
+                   l G +G+GK+t l+ l  ++
+  XP_963869.3 107 GLVGTNGIGKSTALKILSGKL 127
+                  589**********99887666 PP
+
+  == domain 2  score: 9.3 bits;  conditional E-value: 0.0045
+                  CEEEEC-TTTCHHHHHHHHHHHHCT CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawae 26 
+                  ++++ Ge+G GKTt+ + la  ++ 
+  XP_963869.3 377 IIVMMGENGTGKTTFCRLLAGVLKP 401
+                  58999**********9988876665 PP
+
+>> XP_958070.1  ATP-binding cassette transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.4   0.0     0.018       2.3       2      22 ..     194     214 ..     193     218 .. 0.91
+   2 ?    6.6   0.2     0.032       4.2       3      21 ..     883     901 ..     881     907 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 7.4 bits;  conditional E-value: 0.018
+                  CEEEEC-TTTCHHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqklal 22 
+                  +v++ G++GsG Tt+l+ ++ 
+  XP_958070.1 194 MVLVLGKPGSGCTTFLKNIVN 214
+                  689***************986 PP
+
+  == domain 2  score: 6.6 bits;  conditional E-value: 0.032
+                  EEEEC-TTTCHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqkla 21 
+                   +l G++G GKTtLl  la
+  XP_958070.1 883 TALMGASGAGKTTLLDVLA 901
+                  6899***********8776 PP
+
+>> XP_957666.1  GCN20 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.2   0.0      0.02       2.6       5      21 ..     227     243 ..     224     245 .. 0.89
+   2 ?    6.3   0.3     0.039       5.2       3      24 ..     558     579 ..     556     587 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 7.2 bits;  conditional E-value: 0.02
+                  EEC-TTTCHHHHHHHHH CS
+        NACHT   5 lqGeaGsGKTtLlqkla 21 
+                  l G +G+GK+tLl+ l 
+  XP_957666.1 227 LVGHNGVGKSTLLRALS 243
+                  78***********9986 PP
+
+  == domain 2  score: 6.3 bits;  conditional E-value: 0.039
+                  EEEEC-TTTCHHHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklalaw 24 
+                  + + G++G GKTt l+ l+ ++
+  XP_957666.1 558 IGIVGPNGAGKTTILKLLVGKL 579
+                  5689***********9988765 PP
+
+>> XP_955920.2  two-component sensor protein histidine protein kinase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.8   0.0   0.00078       0.1       2      29 ..     604     631 ..     603     680 .. 0.84
+   2 ?    0.6   0.0       2.1   2.8e+02     105     162 ..     791     862 ..     734     864 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 11.8 bits;  conditional E-value: 0.00078
+                  CEEEEC-TTTCHHHHHHHHHHHHCTS-S CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawaegkl 29 
+                  +vi++G  G GK++L+q++  +++++ +
+  XP_955920.2 604 VVIIEGTGGLGKSYLVQSILADARRRGY 631
+                  89*****************999887764 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 2.1
+                  ....HHHHHCTTTTT--EEEEEEECCCHHH..HCTTSSCE................EEEE--TCCHHHHHHHHC CS
+        NACHT 105 vrtlLselirkkllpeasllltvrpralrd..leeqleea..............ivlevegfsesrrkqlvrky 162
+                  +++l+s++i +    +  +++t rp+      + + l+ +              + +++ ++se+++ ++v+ +
+  XP_955920.2 791 SQELISQIIGA--RMKMVIIITYRPEEIGPekVLQILSPPkseelprgagapimTKIKLTPLSEDDIIHFVSST 862
+                  55677777777..6667777777776653333222222224555555555558888888999999999998765 PP
+
+>> XP_963760.2  hypothetical protein NCU09820 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.1   0.3     0.011       1.4       2      21 ..     435     454 ..     434     459 .. 0.87
+   2 ?    5.2   0.0     0.081        11       3      24 ..    1080    1101 ..    1078    1107 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 8.1 bits;  conditional E-value: 0.011
+                  CEEEEC-TTTCHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqkla 21 
+                  l+++ G+ GsGK+ Ll+ + 
+  XP_963760.2 435 LSVIAGKTGSGKSLLLAAIL 454
+                  689**************997 PP
+
+  == domain 2  score: 5.2 bits;  conditional E-value: 0.081
+                   EEEEC-TTTCHHHHHHHHHHHH CS
+        NACHT    3 vilqGeaGsGKTtLlqklalaw 24  
+                   v + G++G GK+tL+  l +++
+  XP_963760.2 1080 VGIVGRSGAGKSTLASVLFRLL 1101
+                   6699***********9887766 PP
+
+>> XP_956918.1  ATP binding protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.0   0.00012     0.016       3      28 ..      18      43 ..      16      51 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 0.00012
+                 EEEEC-TTTCHHHHHHHHHHHHCTS- CS
+        NACHT  3 vilqGeaGsGKTtLlqklalawaegk 28
+                 ++  G aGsGKTt++q++   +  +k
+  XP_956918.1 18 IVCVGMAGSGKTTFMQQINAHLHGKK 43
+                 6778**************88776655 PP
+
+>> XP_962231.1  hypothetical protein NCU06393 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.8    0.0013      0.18       3      25 ..     255     278 ..     253     337 .. 0.66
+   2 ?    1.8   0.0      0.89   1.2e+02       4      22 ..     560     578 ..     558     581 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0013
+                  EEEEC-TTTCHHHHHHHHHHH.HC CS
+        NACHT   3 vilqGeaGsGKTtLlqklala.wa 25 
+                  ++++G  G GK++Ll  +a + w 
+  XP_962231.1 255 IVIHGGHGTGKSMLLNTIAATgWG 278
+                  89****************864144 PP
+
+  == domain 2  score: 1.8 bits;  conditional E-value: 0.89
+                  EEEC-TTTCHHHHHHHHHH CS
+        NACHT   4 ilqGeaGsGKTtLlqklal 22 
+                  +l G++G+ KT+ +q +a+
+  XP_962231.1 560 LLYGPPGCSKTMAAQAMAT 578
+                  689************9987 PP
+
+>> XP_956692.2  DNA repair and recombination protein pif1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.6   0.0   0.00022     0.029       3      27 ..     432     456 ..     430     465 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00022
+                  EEEEC-TTTCHHHHHHHHHHHHCTS CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaeg 27 
+                  v+ +G+aG GK++L++ ++++++++
+  XP_956692.2 432 VFFTGPAGTGKSVLMRAIISELKKK 456
+                  7899******************985 PP
+
+>> XP_965475.1  glucokinase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   0.00021     0.028       3      33 ..      59      89 ..      57      96 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 0.00021
+                 EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC CS
+        NACHT  3 vilqGeaGsGKTtLlqklalawaegklpqga 33
+                  +++G+aG+GK+t ++ la+ +  ++ ++++
+  XP_965475.1 59 WLVTGPAGCGKSTVARYLAESLHWPYIEGDE 89
+                 5799***************999888877776 PP
+
+>> XP_958819.2  multidrug resistance protein 3 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.0   0.0     0.024       3.2       2      22 ..     350     370 ..     349     385 .. 0.81
+   2 ?    4.4   0.0      0.14        19       4      17 ..    1006    1019 ..    1004    1027 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 7.0 bits;  conditional E-value: 0.024
+                  CEEEEC-TTTCHHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqklal 22 
+                  + ++ G++GsGKTt +  l++
+  XP_958819.2 350 TTAVVGPSGSGKTTIVGLLMR 370
+                  6799**********9976665 PP
+
+  == domain 2  score: 4.4 bits;  conditional E-value: 0.14
+                   EEEC-TTTCHHHHH CS
+        NACHT    4 ilqGeaGsGKTtLl 17  
+                   ++ G++G+GKTt +
+  XP_958819.2 1006 AIVGPSGCGKTTVV 1019
+                   699********987 PP
+
+>> XP_961590.2  26S protease regulatory subunit 4 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.1    0.0029      0.39       3      23 ..     241     261 ..     239     267 .. 0.89
+   2 ?    1.6   0.0       1.1   1.4e+02      57     114 ..     274     333 ..     269     337 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 9.9 bits;  conditional E-value: 0.0029
+                  EEEEC-TTTCHHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                  vil G++G GKT L++ +a +
+  XP_961590.2 241 VILYGAPGTGKTLLAKAVANQ 261
+                  89**************99865 PP
+
+  == domain 2  score: 1.6 bits;  conditional E-value: 1.1
+                  HHCCCCTS--SSS-CCHHHHCCSCCCEEEEEE-STT-SS-TCH............HHHHHC CS
+        NACHT  57 llfsqlpepaapvsevwavllelperlLlilDglDelvtdlgq...kekqpvrtlLselir 114
+                  l+ + l +  + v++ ++v +e++ ++++i D +D + t+       +++++++ + el++
+  XP_961590.2 274 LIQKYLGDGPRLVRQLFQVAAENAPSIVFI-DEIDAIGTKRYDstsGGEREIQRTMLELLN 333
+                  6666677777889999************96.999988886666666556666666666665 PP
+
+>> XP_957605.1  mitochondrial Rho GTPase 1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.4   0.0     0.017       2.3       3      23 ..       7      27 ..       5      74 .. 0.91
+   2 ?    3.5   0.0      0.27        35       3      18 ..     426     441 ..     424     446 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 7.4 bits;  conditional E-value: 0.017
+                 EEEEC-TTTCHHHHHHHHHHH CS
+        NACHT  3 vilqGeaGsGKTtLlqklala 23
+                 +++ G+ G GK+ L+++l+  
+  XP_957605.1  7 ICVCGDEGTGKSSLIASLVKG 27
+                 899**************9975 PP
+
+  == domain 2  score: 3.5 bits;  conditional E-value: 0.27
+                  EEEEC-TTTCHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlq 18 
+                  + + G +G GK+ Ll 
+  XP_957605.1 426 CYILGSSGAGKSSLLD 441
+                  6799**********96 PP
+
+>> XP_958048.1  vacuolar protein sorting-associated protein VPS4 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0    0.0017      0.23       3      26 ..     175     198 ..     173     204 .. 0.91
+   2 ?    0.9   0.0       1.8   2.3e+02      54     100 ..     205     253 ..     195     266 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0017
+                  EEEEC-TTTCHHHHHHHHHHHHCT CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawae 26 
+                  ++l G++G GK++L++ +a+++++
+  XP_958048.1 175 ILLYGPPGTGKSYLAKAVATEAKS 198
+                  7899***************99876 PP
+
+  == domain 2  score: 0.9 bits;  conditional E-value: 1.8
+                  HCHHHCCCCTS--SSS-CCHHHHCCSCCCEEEEEE-STT-SS-TCH.... CS
+        NACHT  54 ladllfsqlpepaapvsevwavllelperlLlilDglDelvtdlgq...k 100
+                    dl+ + + e+++ v++ +a+  e++ ++ + +D +D l+   g+   +
+  XP_958048.1 205 SSDLVSKWMGESERLVKQLFAMARENKPSIIF-IDEIDALCGPRGEgesE 253
+                  56677777778888888888888888888777.59999999988884321 PP
+
+>> XP_962516.1  LON domain serine protease [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00039     0.052       3      26 ..     487     510 ..     485     513 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 12.7 bits;  conditional E-value: 0.00039
+                  EEEEC-TTTCHHHHHHHHHHHHCT CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawae 26 
+                  ++l G++G+GKT L++++a+a+ +
+  XP_962516.1 487 LLLVGPPGVGKTSLARSVATALGR 510
+                  689****************99865 PP
+
+>> XP_964673.2  hypothetical protein NCU02051 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   0.0     0.068         9       2      21 ..     602     621 ..     601     625 .. 0.88
+   2 ?    5.6   0.1     0.063       8.3       2      21 ..    1204    1223 ..    1203    1232 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 5.5 bits;  conditional E-value: 0.068
+                  CEEEEC-TTTCHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqkla 21 
+                  +v+  G+ GsGKT L++ + 
+  XP_964673.2 602 VVACLGPVGSGKTSLARAIL 621
+                  68889************986 PP
+
+  == domain 2  score: 5.6 bits;  conditional E-value: 0.063
+                   CEEEEC-TTTCHHHHHHHHH CS
+        NACHT    2 lvilqGeaGsGKTtLlqkla 21  
+                   +v++ G+ GsGK+ Ll  + 
+  XP_964673.2 1204 VVVICGRTGSGKSSLLLAML 1223
+                   799************97655 PP
+
+>> XP_958529.1  ABC multidrug transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.6   0.0      0.26        34       2      22 ..     108     128 ..     107     135 .. 0.88
+   2 ?    7.7   0.1     0.014       1.8       5      30 ..     809     834 ..     806     847 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 3.6 bits;  conditional E-value: 0.26
+                  CEEEEC-TTTCHHHHHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlqklal 22 
+                  ++++ G++GsG TtLl  la 
+  XP_958529.1 108 MLLVLGRPGSGCTTLLNLLAN 128
+                  5799************98876 PP
+
+  == domain 2  score: 7.7 bits;  conditional E-value: 0.014
+                  EEC-TTTCHHHHHHHHHHHHCTS-SC CS
+        NACHT   5 lqGeaGsGKTtLlqklalawaegklp 30 
+                  l G +G GKTtLl  la+   +g+ +
+  XP_958529.1 809 LMGSSGAGKTTLLDVLAQRKTDGTIK 834
+                  78*************99987777765 PP
+
+>> XP_964805.3  RAB family GTPase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   0.00054     0.071       3      22 ..      33      52 ..      31      63 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.3 bits;  conditional E-value: 0.00054
+                 EEEEC-TTTCHHHHHHHHHH CS
+        NACHT  3 vilqGeaGsGKTtLlqklal 22
+                 +il G++GsGK+ Ll++++ 
+  XP_964805.3 33 IILLGPSGSGKSCLLHRFVK 52
+                 79***************986 PP
+
+>> XP_961184.1  cell division control protein 12 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00045     0.059       2      31 ..      33      62 ..      32      68 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 12.6 bits;  conditional E-value: 0.00045
+                 CEEEEC-TTTCHHHHHHHHHHHHCTS-SCC CS
+        NACHT  2 lvilqGeaGsGKTtLlqklalawaegklpq 31
+                 ++++ Ge+G GKTt++  l ++  +++ ++
+  XP_961184.1 33 TIMVAGESGLGKTTFINTLFSTTIKNYADH 62
+                 689***************999877777666 PP
+
+>> XP_963253.2  ATP synthase beta subunit [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   0.00063     0.083       6      28 ..     194     216 ..     191     247 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00063
+                  EC-TTTCHHHHHHHHHHHHCTS- CS
+        NACHT   6 qGeaGsGKTtLlqklalawaegk 28 
+                   G aG+GKT+++q+l+  +a+ +
+  XP_963253.2 194 FGGAGVGKTVFIQELINNIAKAH 216
+                  699*****************988 PP
+
+>> XP_958860.2  proteasome 26S subunit [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00066     0.087       3      27 ..     171     195 ..     169     204 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00066
+                  EEEEC-TTTCHHHHHHHHHHHHCTS CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaeg 27 
+                  v+l G++G GKT L++ +a+ + ++
+  XP_958860.2 171 VLLYGPPGTGKTLLARAVASSLETN 195
+                  799****************998765 PP
+
+>> XP_965675.1  ABC transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00051     0.068       2      32 ..     395     425 ..     394     441 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 0.00051
+                  CEEEEC-TTTCHHHHHHHHHHHHCTS-SCCC CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawaegklpqg 32 
+                  + ++ G++G GKTt+l  la++ ++g+  ++
+  XP_965675.1 395 VTAIMGASGAGKTTFLDILARKNKRGQVSGD 425
+                  67899********************998775 PP
+
+>> XP_964321.1  cell cycle checkpoint protein RAD17 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0   0.00065     0.086       1      28 [.     275     302 ..     275     311 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 12.0 bits;  conditional E-value: 0.00065
+                  SCEEEEC-TTTCHHHHHHHHHHHHCTS- CS
+        NACHT   1 rlvilqGeaGsGKTtLlqklalawaegk 28 
+                  rl++l+G+aG GKTt l+ la++++ + 
+  XP_964321.1 275 RLLVLKGAAGTGKTTTLKLLAEDMRCEV 302
+                  689*****************99988765 PP
+
+>> XP_965431.2  ATP binding protein [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   0.00063     0.083       3      28 ..       6      31 ..       5      60 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 12.1 bits;  conditional E-value: 0.00063
+                 EEEEC-TTTCHHHHHHHHHHHHCTS- CS
+        NACHT  3 vilqGeaGsGKTtLlqklalawaegk 28
+                 v++ G+aG GK+t+ ++l++ ++ ++
+  XP_965431.2  6 VMVMGPAGAGKSTFCASLITHLQLNR 31
+                 6899***************9998766 PP
+
+>> XP_011394207.1  dynein heavy chain [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0      0.46        61       3      28 ..    2236    2261 ..    2234    2291 .. 0.88
+   2 ?    2.6   0.0      0.53        69       2      17 ..    2600    2615 ..    2599    2630 .. 0.85
+   3 ?    4.4   0.0      0.14        19       3      18 ..    2943    2958 ..    2942    2964 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.46
+                      EEEEC-TTTCHHHHHHHHHHHHCTS- CS
+           NACHT    3 vilqGeaGsGKTtLlqklalawaegk 28  
+                      v++ G +GsGK++  + l +a+++ +
+  XP_011394207.1 2236 VMMVGNSGSGKSAAWRLLLDALQQTE 2261
+                      7899***********99999999876 PP
+
+  == domain 2  score: 2.6 bits;  conditional E-value: 0.53
+                      CEEEEC-TTTCHHHHH CS
+           NACHT    2 lvilqGeaGsGKTtLl 17  
+                      +++l G++GsGKT+ l
+  XP_011394207.1 2600 PLLLCGPPGSGKTMTL 2615
+                      57899********977 PP
+
+  == domain 3  score: 4.4 bits;  conditional E-value: 0.14
+                      EEEEC-TTTCHHHHHH CS
+           NACHT    3 vilqGeaGsGKTtLlq 18  
+                      +il G +GsGKTtL +
+  XP_011394207.1 2943 LILIGVSGSGKTTLSR 2958
+                      689**********965 PP
+
+>> XP_011394208.1  dynein heavy chain, variant [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.8   0.0      0.46        61       3      28 ..    2236    2261 ..    2234    2291 .. 0.88
+   2 ?    2.6   0.0      0.53        69       2      17 ..    2600    2615 ..    2599    2630 .. 0.85
+   3 ?    4.4   0.0      0.14        19       3      18 ..    2943    2958 ..    2942    2964 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 2.8 bits;  conditional E-value: 0.46
+                      EEEEC-TTTCHHHHHHHHHHHHCTS- CS
+           NACHT    3 vilqGeaGsGKTtLlqklalawaegk 28  
+                      v++ G +GsGK++  + l +a+++ +
+  XP_011394208.1 2236 VMMVGNSGSGKSAAWRLLLDALQQTE 2261
+                      7899***********99999999876 PP
+
+  == domain 2  score: 2.6 bits;  conditional E-value: 0.53
+                      CEEEEC-TTTCHHHHH CS
+           NACHT    2 lvilqGeaGsGKTtLl 17  
+                      +++l G++GsGKT+ l
+  XP_011394208.1 2600 PLLLCGPPGSGKTMTL 2615
+                      57899********977 PP
+
+  == domain 3  score: 4.4 bits;  conditional E-value: 0.14
+                      EEEEC-TTTCHHHHHH CS
+           NACHT    3 vilqGeaGsGKTtLlq 18  
+                      +il G +GsGKTtL +
+  XP_011394208.1 2943 LILIGVSGSGKTTLSR 2958
+                      689**********965 PP
+
+>> XP_955956.1  hypothetical protein NCU06414 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.1    0.0012      0.15       3      23 ..     245     265 ..     243     269 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 0.0012
+                  EEEEC-TTTCHHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                  v++ G++G+GKT L++ +++ 
+  XP_955956.1 245 VLIAGDSGVGKTSLIKAIVQS 265
+                  899***************986 PP
+
+>> XP_958146.1  hypothetical protein NCU09012 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   0.0    0.0039      0.52       2      27 ..     672     697 ..     671     709 .. 0.88
+   2 ?   -1.2   0.0       7.5   9.9e+02       5      19 ..    1347    1361 ..    1344    1370 .. 0.80
+   3 ?    1.1   0.1       1.5     2e+02      58     128 ..    1441    1508 ..    1411    1524 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 9.5 bits;  conditional E-value: 0.0039
+                  CEEEEC-TTTCHHHHHHHHHHHHCTS CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawaeg 27 
+                  l+++ G+ G GK+ +lq++  ++++ 
+  XP_958146.1 672 LSCIVGRVGAGKSSFLQSILGDLWKI 697
+                  689****************9998875 PP
+
+  == domain 2  score: -1.2 bits;  conditional E-value: 7.5
+                   EEC-TTTCHHHHHHH CS
+        NACHT    5 lqGeaGsGKTtLlqk 19  
+                   + G+ G GK+ L   
+  XP_958146.1 1347 VVGRTGAGKSSLTLA 1361
+                   78********99655 PP
+
+  == domain 3  score: 1.1 bits;  conditional E-value: 1.5
+                   HCCCCTS--SSS-CCHHHHCCSCCCEE.....EEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEE CS
+        NACHT   58 lfsqlpepaapvsevwavllelperlL.....lilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvr 128 
+                   l ++  e +++ s++   l++l++ lL     l+lD +  +v+          + lL++ +r  +l  ++ ++tv 
+  XP_958146.1 1441 LEAKINEGGSNLSQGQRQLVSLARALLtpsniLVLDEATAAVDVQT-------DALLQQTLRS-HLFANRTIITVA 1508
+                   3344444444555566667777777779999999999988887444.......5999999998.666677777765 PP
+
+>> XP_961317.2  multidrug resistance-associated protein 5 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   0.0    0.0048      0.63       2      27 ..     620     645 ..     619     678 .. 0.86
+   2 ?    0.3   0.1       2.6   3.4e+02       4      22 ..    1217    1235 ..    1214    1241 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.0048
+                  CEEEEC-TTTCHHHHHHHHHHHHCTS CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawaeg 27 
+                  lv++ G  GsGKT Ll  la ++++ 
+  XP_961317.2 620 LVAVIGSVGSGKTSLLSALAGDMRKT 645
+                  799****************9888775 PP
+
+  == domain 2  score: 0.3 bits;  conditional E-value: 2.6
+                   EEEC-TTTCHHHHHHHHHH CS
+        NACHT    4 ilqGeaGsGKTtLlqklal 22  
+                    + G+ G GK+  +  l +
+  XP_961317.2 1217 GIVGRTGAGKSSIMSTLFR 1235
+                   689*********9998865 PP
+
+>> XP_957623.1  mitochondrial ATPase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0    0.0013      0.17       3      50 ..     129     176 ..     127     189 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0013
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEETTTTTTS-. CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFflslrelsrsgn 50 
+                  ++l Ge G GK++Ll  la+ + + + ++ +f  + +  l++l++  +
+  XP_957623.1 129 LFLSGEVGTGKSMLLDLLAEGLPTHRKKRWHFNTFMLYALSRLEQFRK 176
+                  6899******************99998887788777777777776655 PP
+
+>> XP_957050.1  mitochondrial ATPase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0     0.002      0.26       3      41 ..     176     212 ..     174     228 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.002
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEE CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFfls 41 
+                  + l G+ G+GKT+L+  + +++ ++   +   +  F+ +
+  XP_957050.1 176 LYLYGDVGCGKTMLMDLFYDTLPHNIKSK--TRIHFHNF 212
+                  5689***********99999988776555..35555554 PP
+
+>> XP_961487.1  GTP-binding protein ypt7 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   0.00087      0.11       3      19 ..      11      27 ..       9      38 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 11.6 bits;  conditional E-value: 0.00087
+                 EEEEC-TTTCHHHHHHH CS
+        NACHT  3 vilqGeaGsGKTtLlqk 19
+                 vi+ G++G+GKT L+ +
+  XP_961487.1 11 VIILGDSGVGKTSLMNQ 27
+                 89************987 PP
+
+>> XP_011395174.1  AAA family ATPase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0    0.0013      0.17       3      24 ..     611     632 ..     609     637 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0013
+                     EEEEC-TTTCHHHHHHHHHHHH CS
+           NACHT   3 vilqGeaGsGKTtLlqklalaw 24 
+                     ++l G++G GKT+L++ +a++ 
+  XP_011395174.1 611 MLLFGPPGTGKTMLARAVATES 632
+                     7899**************9875 PP
+
+>> XP_011395175.1  AAA family ATPase, variant [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0    0.0013      0.17       3      24 ..     611     632 ..     609     637 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.0 bits;  conditional E-value: 0.0013
+                     EEEEC-TTTCHHHHHHHHHHHH CS
+           NACHT   3 vilqGeaGsGKTtLlqklalaw 24 
+                     ++l G++G GKT+L++ +a++ 
+  XP_011395175.1 611 MLLFGPPGTGKTMLARAVATES 632
+                     7899**************9875 PP
+
+>> XP_965187.1  ABC drug exporter AtrF [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0       2.7   3.6e+02       2      18 ..     255     271 ..     254     276 .. 0.89
+   2 ?    9.0   0.3    0.0054      0.71       3      23 ..     957     977 ..     955     989 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 0.3 bits;  conditional E-value: 2.7
+                  CEEEEC-TTTCHHHHHH CS
+        NACHT   2 lvilqGeaGsGKTtLlq 18 
+                  ++++ G++GsG +t+l+
+  XP_965187.1 255 IMLVLGRPGSGCSTFLK 271
+                  689************97 PP
+
+  == domain 2  score: 9.0 bits;  conditional E-value: 0.0054
+                  EEEEC-TTTCHHHHHHHHHHH CS
+        NACHT   3 vilqGeaGsGKTtLlqklala 23 
+                  v+l G++G GKTtLl  l + 
+  XP_965187.1 957 VALMGASGAGKTTLLNTLSQR 977
+                  8999************99876 PP
+
+>> XP_962576.2  hypothetical protein NCU06314 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0    0.0019      0.25       3      24 ..      52      73 ..      50      83 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.0019
+                 EEEEC-TTTCHHHHHHHHHHHH CS
+        NACHT  3 vilqGeaGsGKTtLlqklalaw 24
+                 v++ G++G+GKT L++ la ++
+  XP_962576.2 52 VLICGPPGVGKTSLAKLLAALA 73
+                 8999**********99887655 PP
+
+>> XP_957124.1  hypothetical protein NCU06484 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   0.0    0.0021      0.27       3      41 ..     693     726 ..     691     793 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.0021
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEEEE CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFfls 41 
+                  v+ +G++G GKT L++ la    +g       k +F+++
+  XP_957124.1 693 VLFHGPPGTGKTLLARALANSVGSGG-----RKISFYMR 726
+                  789****************9998887.....25566655 PP
+
+>> XP_960955.3  phosphoribulokinase/uridine kinase [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.9   0.0    0.0014      0.19       2      24 ..      26      48 ..      25      57 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 10.9 bits;  conditional E-value: 0.0014
+                 CEEEEC-TTTCHHHHHHHHHHHH CS
+        NACHT  2 lvilqGeaGsGKTtLlqklalaw 24
+                 l+++ G +GsGKTtL q la+ +
+  XP_960955.3 26 LIAIAGIPGSGKTTLSQILARRL 48
+                 6899***********99998866 PP
+
+>> XP_965352.2  origin recognition complex subunit 1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8   0.0    0.0016      0.21       3      98 ..     366     466 ..     364     508 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 0.0016
+                  EEEEC-TTTCHHHHHHHHHHHHCTS-SCCCC-SEEEE.EETTTTTTS-....-HCHHHCCCCTS--SSS-C...CHHHHCCSCCCEEEEEE-STT-SS CS
+        NACHT   3 vilqGeaGsGKTtLlqklalawaegklpqgafklvFf.lslrelsrsgna.rsladllfsqlpepaapvse...vwavllelperlLlilDglDelvt 95 
+                  + + G +G GKT+ ++++++ + +     +  +++F+ ++  +++++ ++   l + l  q   p+++ +     +++   ++   + ++D lD+lvt
+  XP_965352.2 366 IYISGTPGTGKTATVREVVSHLDAAVRADELDDFIFVeINGMKITDPHQSySLLWEALKGQRVSPSQALDLlerEFSHPSPRRVPCVVLMDELDQLVT 463
+                  6799*****************99988777666777763333344444444334455555555555554443333455555555555688888888888 PP
+
+                  -TC CS
+        NACHT  96 dlg 98 
+                  +++
+  XP_965352.2 464 KNQ 466
+                  666 PP
+
+>> XP_964105.1  myosin-5 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.1    0.0018      0.24       2      25 ..     129     152 ..     128     159 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0018
+                  CEEEEC-TTTCHHHHHHHHHHHHC CS
+        NACHT   2 lvilqGeaGsGKTtLlqklalawa 25 
+                   vi+ Ge+G GKT  ++++++ +a
+  XP_964105.1 129 CVIISGESGAGKTEAAKRIMQYIA 152
+                  589*****************9887 PP
+
+>> XP_963539.2  replication factor C subunit 1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   0.0     0.014       1.9       1      18 [.     533     550 ..     533     558 .. 0.85
+   2 ?    0.6   0.0       2.1   2.7e+02      79     135 ..     601     649 ..     596     653 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.014
+                  SCEEEEC-TTTCHHHHHH CS
+        NACHT   1 rlvilqGeaGsGKTtLlq 18 
+                  r +i+ G++G+GKTt ++
+  XP_963539.2 533 RAIIISGPPGIGKTTAAH 550
+                  579***********9765 PP
+
+  == domain 2  score: 0.6 bits;  conditional E-value: 2.1
+                  SCCCEEEEEE-STT-SS-TCH.........HHHHHCTTTTT--EEEEEEECCCHHHH CS
+        NACHT  79 lperlLlilDglDelvtdlgqkekqpvrtlLselirkkllpeasllltvrpralrdl 135
+                  ++++++l++D +D +++ ++          +++ ++k   +e++l+l++  r+l+++
+  XP_963539.2 601 RKKKIVLVMDEVDGMSAGDRG-----GVGTMAKFCKK---TEVPLILICNERRLPKM 649
+                  7899***********985554.....67778888888...88888888888888776 PP
+
+>> XP_955769.1  RuvB-like helicase 1 [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.1    0.0026      0.34       3      26 ..      67      90 ..      65      96 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.0026
+                 EEEEC-TTTCHHHHHHHHHHHHCT CS
+        NACHT  3 vilqGeaGsGKTtLlqklalawae 26
+                 v+l G +G GKT+L+  + +++ +
+  XP_955769.1 67 VLLAGGPGTGKTALALAISQELGT 90
+                 899***************999876 PP
+
+>> XP_960859.1  ABC transporter [Neurospora crassa OR74A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.2    0.0017      0.22       3      21 ..      39      57 ..      37      62 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 10.7 bits;  conditional E-value: 0.0017
+                 EEEEC-TTTCHHHHHHHHH CS
+        NACHT  3 vilqGeaGsGKTtLlqkla 21
+                  +l G++G GKTtLl+ la
+  XP_960859.1 39 TLLIGANGAGKTTLLRLLA 57
+                 6899***********9876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (166 nodes)
+Target sequences:                      10812  (5632514 residues searched)
+Passed MSV filter:                       521  (0.0481872); expected 216.2 (0.02)
+Passed bias filter:                      485  (0.0448576); expected 216.2 (0.02)
+Passed Vit filter:                       213  (0.0197003); expected 10.8 (0.001)
+Passed Fwd filter:                        82  (0.00758417); expected 0.1 (1e-05)
+Initial search space (Z):              10812  [actual number of targets]
+Domain search space  (domZ):              82  [number of targets reported over threshold]
+# CPU time: 0.21u 0.01s 00:00:00.22 Elapsed: 00:00:00.10
+# Mc/sec: 8861.86
+//
+[ok]
