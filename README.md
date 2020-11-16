@@ -35,7 +35,7 @@ Whenever you run Jupyter notebook, you should first change to your working direc
 
 ```
 cd ~/
-git clone fungal-nlr
+git clone https://github.com/boxu855/fungal-nlr.git
 cd fungal-nlr
 jupyter notebook
 ```
