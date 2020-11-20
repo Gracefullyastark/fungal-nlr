@@ -8,7 +8,7 @@ These are Python scripts for computing highly variable sites in candidate fungal
 
 ## Dependencies
 
-I recommend [Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) for installing packages. Visit the Miniconda download page [(link)](https://docs.conda.io/en/latest/miniconda.html) and run the installer 'Miniconda3 MacOSX 64-bit pkg' listed under Python version 3.x.
+I recommend [Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) for installing packages. If you are on Mac, visit the Miniconda download page [(link)](https://docs.conda.io/en/latest/miniconda.html) and run the installer 'Miniconda3 MacOSX 64-bit pkg' listed under Python version 3.x.
 
 From this point on you can use ```conda``` or ```pip``` (a package manager included with Anaconda) to install Python packages. Run the following commands in terminal to install any of the following packages you don't already have:
 
