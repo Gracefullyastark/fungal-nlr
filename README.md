@@ -2,8 +2,8 @@
 
 These are Python scripts for computing highly variable sites in candidate fungal NLRs. The general procedure is as follows:
 
-1) Use hmmer to search reference fungal proteome for candidate NLRs containing certain pfam domains\
-2) Use exonerate protein2genome to align candidate NLR to all known genome assemblies in the species\
+1) Use hmmer to search reference fungal proteome for candidate NLRs containing certain pfam domains
+2) Use exonerate protein2genome to align candidate NLR to all known genome assemblies in the species
 3) Generate multiple sequence alignment of NLR instraspecies orthologs across the genomes and compute entropy
 
 ## Dependencies
