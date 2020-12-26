@@ -3,10 +3,10 @@
 # Copyright (C) 2020 Howard Hughes Medical Institute.
 # Freely distributed under the BSD open source license.
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# query HMM file:                  pfam/NACHT.hmm
-# target sequence database:        proteomes/NC12_protein.faa
-# MSA of all hits saved to file:   align/NACHT-NC12.aln
-# per-dom hits tabular output:     output/NACHT-NC12.domout
+# query HMM file:                  pfam_domains/NACHT.hmm
+# target sequence database:        proteomes/neurospora/GCF_000182925.2_NC12_protein.faa
+# MSA of all hits saved to file:   hmmsearch_align/neurospora/NACHT-NC12.aln
+# per-dom hits tabular output:     hmmsearch_out/neurospora/NACHT-NC12.domout
 # domain reporting threshold:      E-value <= 0.01
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -1263,8 +1263,8 @@ Passed Vit filter:                       213  (0.0197003); expected 10.8 (0.001)
 Passed Fwd filter:                        82  (0.00758417); expected 0.1 (1e-05)
 Initial search space (Z):              10812  [actual number of targets]
 Domain search space  (domZ):              82  [number of targets reported over threshold]
-# CPU time: 0.19u 0.00s 00:00:00.19 Elapsed: 00:00:00.09
-# Mc/sec: 10114.10
+# CPU time: 0.25u 0.01s 00:00:00.26 Elapsed: 00:00:00.13
+# Mc/sec: 7107.79
 //
-# Alignment of 50 hits satisfying inclusion thresholds saved to: align/NACHT-NC12.aln
+# Alignment of 50 hits satisfying inclusion thresholds saved to: hmmsearch_align/neurospora/NACHT-NC12.aln
 [ok]

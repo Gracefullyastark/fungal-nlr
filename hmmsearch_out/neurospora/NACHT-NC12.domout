@@ -82,9 +82,9 @@ XP_960859.1          -            297 NACHT                PF05729.13   166     
 # Program:         hmmsearch
 # Version:         3.3.1 (Jul 2020)
 # Pipeline mode:   SEARCH
-# Query file:      pfam/NACHT.hmm
-# Target file:     proteomes/NC12_protein.faa
-# Option settings: hmmsearch -A align/NACHT-NC12.aln --domtblout output/NACHT-NC12.domout --domE 0.01 pfam/NACHT.hmm proteomes/NC12_protein.faa 
-# Current dir:     /Users/boxu/Box Sync/nlr
-# Date:            Mon Nov  2 20:48:32 2020
+# Query file:      pfam_domains/NACHT.hmm
+# Target file:     proteomes/neurospora/GCF_000182925.2_NC12_protein.faa
+# Option settings: hmmsearch -A hmmsearch_align/neurospora/NACHT-NC12.aln --domtblout hmmsearch_out/neurospora/NACHT-NC12.domout --domE 0.01 pfam_domains/NACHT.hmm proteomes/neurospora/GCF_000182925.2_NC12_protein.faa 
+# Current dir:     /Users/boxu/Box Sync/fungal-nlr
+# Date:            Thu Dec 24 11:09:54 2020
 # [ok]
